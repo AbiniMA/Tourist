@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/logo.png" alt="" width="130" height="65">
+            </a>
+            <a class="navbar-brand h1 fs-4 fw-bold " href="./index.html">TravelMania</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-0 mb-lg-0 mx-auto ">
+                    <li class="nav-item ps-3">
+                        <a class="nav-link  active fs-6 fw-bold" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link active fs-6 fw-bold" href="./package.html">PACKAGES</a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link active fs-6 fw-bold" href="./contact.html">CONTACT US</a>
+                    </li>
+                    <li class="nav-item dropdown ps-3">
+                        <a class="nav-link dropdown-toggle fs-6 fw-bold active" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item fw-bold" href="./about.html">ABOUT US</a></li>
+                            <li><a class="dropdown-item fw-bold" href="./award.html">AWARDS</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <i class="fa-solid fa-magnifying-glass me-5 fw-bold text-warning fs-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                aria-controls="offcanvasTop"></i>
+            <div class="offcanvas offcanvas-top " tabindex="-1" id="offcanvasTop"
+                aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <h5></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body mx-auto ">
+                    
+                    <input type="search" Placeholder="Search..." class="py-2 px-5">
+                    <button type="button" class="btn btn-warning mx-5 fw-bold" >Search</button>
+                </div>
+            </div>
+
+
+
+                <button type="button" class="btn btn-warning fw-bold mx-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">ENQUIRE NOW</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com" autocomplete="off" required>
+                                        <label for="floatingInput">Name</label>
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingPassword"
+                                            placeholder="Password" autocomplete="off" required>
+                                        <label for="floatingPassword">Address</label>
+                                    </div>
+                                    <div class=" form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingPassword"
+                                            placeholder="Password" autocomplete="off" required>
+                                        <label for="floatingPassword">Email</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="tel" class="form-control" id="floatingPassword"
+                                            placeholder="Password" autocomplete="off" required>
+                                        <label for="floatingPassword">Phone Number</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="tel" class="form-control" id="floatingPassword"
+                                            placeholder="Password" autocomplete="off">
+                                        <label for="floatingPassword">WhatsApp</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingPassword"
+                                            placeholder="Password" autocomplete="off" required>
+                                        <label for="floatingPassword">Travel Destination</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="date" class="form-control" id="floatingPassword"
+                                            placeholder="Password" autocomplete="off" required>
+                                        <label for="floatingPassword">Date of Travel</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="number" class="form-control" id="floatingPassword"
+                                            placeholder="Password" autocomplete="off" required>
+                                        <label for="floatingPassword">No.of People</label>
+                                    </div>
+
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-warning">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+<div class="mx-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html" class="text-warning text-decoration-none">Home</a></li>
+          <li class="breadcrumb-item"><a href="./about.html" class="text-warning text-decoration-none">Pages</a></li>
+          <li class="breadcrumb-item active" aria-current="page">About</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <img src="./images/ban.jpg"  class="img-fluid mt-5">
+
+               
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <p class="h4 mt-5 ms-5  text-center"> Our Mission</p>
+                <p class="lh-lg fs-5 mt-3 ms-5"> TravelMania is a full integrated travel company that offers comprehensive solutions for all the
+                    business and leisure travelers across the world. This prestigious travel company in Chennai mainly
+                    aims to satisfy the client’s requirements with ultimate transparency and cost-effectiveness. We
+                    assure to offer round the clock support and assistance at any point of your travel.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            
+
+            <div class="col-sm-12 col-md-6">
+                <p class="h4 mt-5 ms-5  text-center"> Our Vision</p>
+                <p class="lh-lg fs-5 mt-3 ms-5"> TravelMania is a full integrated travel company that offers comprehensive solutions for all the
+                    business and leisure travelers across the world. This prestigious travel company in Chennai mainly
+                    aims to satisfy the client’s requirements with ultimate transparency and cost-effectiveness. We
+                    assure to offer round the clock support and assistance at any point of your travel.
+                </p>
+            </div>
+
+            <div class="col-sm-12 col-md-6 ">
+                <img src="./images/car2.jpg"  class="img-fluid mt-5 mb-5">
+
+               
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <p class="h4 mt-5 ms-5 text-center"> Our Story</p>
+    <p class="lh-lg fs-5 mt-3 ms-5">Established in 1968, TravelMania is entirely owned and managed by Sangam Group of Hotels. The Sangam Group is recognized as one of the largest hotel chains in Tamil Nadu. Along with the Group, the TravelMania is striving hard for ultimate success and innovation.</p>
+    <p class="lh-lg fs-5 mt-3 ms-5">
+        We are an ISO 9001: 2008 certified company that aim to set clear goals, fix the priorities and organize the resources effectively. TravelMania enables you to discover a new destination and offer unique ideas to your travel.
+    </p>
+
+    <p class="lh-lg fs-5 mt-3 ms-5">Our travel company offers a complete business travel environment for MICE (Meetings, Incentives, Conferences and Events) services at affordable cost. We provide a wide range of holiday tour packages for all the domestic and international destinations across the world.</p>
+
+</div>
+
+<div class="container-fluid bg-dark text-light">
+    <div class="row mt-5">
+        <div class="col mt-5 ms-5 my-1">
+            <a class="navbar-brand float-center " href="./index.html">
+                <img src="./images/logo.png" alt="" height="150">
+
+            </a>
+            <p class="fw-bold pb-3">Welcome to our Trip and Tour Agency. </p>
+            
+           
+        </div>
+
+        <div class="col  mt-5 pt-5 px-5 ms-5 mb-3">
+            <p  class="fw-bold fs-5 ">Company</p>
+            <p>About Us</p>
+            <p>Community Blog</p>
+            <p>Rewards</p>
+            <p> Work with Us</p>
+            <p>Meet the Team </p>
+
+
+        </div>
+        <div class="col mt-5  pt-5 ">
+
+            <p class="fw-bold fs-5 "> Explore</p>
+            <p >Account</p>
+            <p>Legal</p>
+            <p>Contact</p>
+            <p>Affilitate Program</p>
+            <p>Privacy Policy</p>
+        </div>
+        <div class="col mt-5  pt-5 me-5 ">
+            <p class="ms-4"><i class="fa-sharp fa-solid fa-phone"></i>+ 9923456890</p>
+            <p class="ms-4"><i class="fa-sharp fa-solid fa-envelope"></i> travelmania@gmail.com</p>
+            <p class="ms-4"><i class="fa-sharp fa-solid fa-location-dot"></i> 666 road, broklyn street new york</p>
+
+
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+    <script src="./bootstrap.bundle.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+
+</body>
+
+</html>
